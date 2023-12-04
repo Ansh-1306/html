@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>Login Form</title>
+</head>
+
+<body bgcolor="lightblue">
+    <form action="E5.html" method="post">
+        <fieldset>
+            <legend align = "center">Login Form</legend>
+        <p>
+            <label>Email ID
+                <input type="email" name="email" />
+            </label>
+        </p>
+        <p>
+            <label>Password
+                <input type="password" name="pass" maxlength="8" />
+            </label>
+        </p>
+        <p>Gender
+            <label>
+                <input type="radio" name="gender" value="male" checked />Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female" />Female
+            </label>
+        </p>
+        <p>Hobby
+            <label>
+                <input type="checkbox" name="hobby" value="cricket" />Cricket
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="Football" />Football
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="Tennis" />Tennis
+            </label>
+        </p>
+        <p>
+            <label>Age
+                <input type="range" name="age" min =0 max = 200/>
+            </label>
+        </p>
+        <p>
+            <label>Date of birth
+                <input type="date" name="dob" />
+            </label>
+        </p>
+        <p>
+            <table>
+                <tr>
+                    <td>
+                        <label for = "add">Address</label>
+                    </td>
+                    <td >
+                        <label>
+                            <textarea rows = 10 cols =30 id="add" ></textarea>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </p>
+        
+        <p>
+            <label><tt>Select Country</tt>
+                <select>
+                    <option selected diabled hidden>Select a country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value ="UK">UK</option>
+                </select>
+            </label>
+        </p>
+        <p align = center>
+            <label>
+                <input type="submit" name="submit" />
+            </label>
+            <label>
+                <input type="reset" name="reset" />
+            </label>
+        </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>
+            Book Subsciption
+        </title>
+    </head>
+    <body>
+        <form action = "new.html" method = "post">
+            <fieldset>
+                <legend>Book Form</legend>
+                <p>
+                    <label>Name
+                        <input type="text" name="uname">
+                    </label>
+                </p>
+                <p>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for = "add">Address</label>
+                            </td>
+                            <td >
+                                <label>
+                                    <textarea rows = 10 cols =30 id="add" placeholder="Enter Address"></textarea>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+                <p>Subject
+                    <label><input type = "radio" name="Subject" value="novel" checked>Novel</label>
+                    <label><input type = "radio" name="Subject" value="story books" checked>Story Books</label>
+                    <label><input type = "radio" name="Subject" value="Comics" checked>Comics</label>
+                </p>
+                <p>Gender
+                    <label>
+                        <input type="radio" name="gender" value="male"  />Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female" />Female
+                    </label>
+                </p>
+                <p>
+                    <label>Date of birth
+                        <input type="date" name="dob" />
+                    </label>
+                </p>
+                <p>
+                    <label>Favorite Author
+                        <select>
+                            <option selected disabled hidden>--Select Author--</option>
+                            <optgroup label = "Novel">
+                                <option value="author1">Author 1</option>
+                                <option value="author2">Author 2</option>
+                                <option value="author3">Author 3</option>
+                            </optgroup>
+                            <optgroup label = "Story Books">
+                                <option value="author4">Author 4</option>
+                                <option value="author5">Author 5</option>
+                                <option value="author6">Author 6</option>
+                            </optgroup>
+                            <optgroup label = "Comics">
+                                <option value="author7">Author 7</option>
+                                <option value="author8">Author 8</option>
+                                <option value="author9">Author 9</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                </p>
+                <p>Rating
+                    <label>
+                        <input type="range" name="Rating" min =0 max = 5>
+                    </label>
+                </p>
+                <p>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for = "com">Comments</label>
+                            </td>
+                            <td >
+                                <label>
+                                    <textarea rows = 10 cols =30 id="com" placeholder="Enter Review"></textarea>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+                <p align = "center">
+                    <label>
+                        <input type="submit" name="submit" />
+                    </label>
+                    <label>
+                        <input type="reset" name="reset" />
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
